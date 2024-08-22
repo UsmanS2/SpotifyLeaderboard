@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --mantine-rank-gold: #FFD700; /* Gold */
+  --mantine-rank-silver: #C0C0C0; /* Silver */
+  --mantine-rank-bronze: #CD7F32; /* Bronze */
+}
+
+[data-theme="light"] {
+  --mantine-rank-gold: #FFD700;
+  --mantine-rank-silver: #C0C0C0;
+  --mantine-rank-bronze: #CD7F32;
+}
+
+[data-theme="dark"] {
+  --mantine-rank-gold: #FFD700;
+  --mantine-rank-silver: #C0C0C0;
+  --mantine-rank-bronze: #CD7F32;
+}

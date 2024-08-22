@@ -1,18 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SongsList from './components/SongsList';
-import SongDetails from './components/SongDetails';
+import '@mantine/core/styles.css';
+import { MantineProvider } from '@mantine/core';
+import { Router } from './Router';
+import { theme } from './theme';
+import { ColorSchemeToggle } from './components/ColorSchemeToggle/ColorSchemeToggle';
+
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-      <Routes>
-          <Route path="/" element={<SongsList />} />
-          <Route path="/song/:id" element={<SongDetails />} />
-        </Routes>
-      </div>
-    </Router>
+    <>
+    <MantineProvider theme={theme}>
+        <ColorSchemeToggle />
+        <div className="App">
+          <Router />
+        </div>
+    </MantineProvider>
+  </>
   );
 }
 
