@@ -1,6 +1,5 @@
 # Spotify Leaderboard
 
-![Project Banner](url-to-image-if-you-have-one)
 
 ## Table of Contents
 
@@ -17,7 +16,7 @@
 
 ## About the Project
 
-The **Spotify Leaderboard** is a full-stack web application that displays a leaderboard of the top 50 most streamed Spotify songs in 2024. Users can view detailed statistics for each song, including data from Spotify, YouTube, and TikTok. The project includes a custom API for fetching song data from a CSV dataset and a React-based frontend for displaying the data.
+The **Spotify Leaderboard** is a full-stack web application that displays a leaderboard of the top 50 most streamed Spotify songs for the first half of 2024. Users can view detailed statistics for each song, including data from Spotify, YouTube, and TikTok. The project includes a custom API for fetching song data from a CSV dataset and a React-based frontend for displaying the data.
 
 ## Features
 
@@ -50,5 +49,5 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/spotify-leaderboard.git
-   cd spotify-leaderboard
+   git clone https://github.com/usmans2/spotifyleaderboard.git
+   cd spotifyleaderboard
